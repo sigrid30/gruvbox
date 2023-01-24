@@ -1,7 +1,7 @@
 ---
-title: Test
+title: Hello World
 date: 2019-03-08
 draft: false
 ---
 
-It is just test. Test?
+This is a test post.
