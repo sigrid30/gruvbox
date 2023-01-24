@@ -1,0 +1,275 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Asif Mammadov",
+    "label": "Software Engineer",
+    "image": "/cv/profile.jpg",
+    "email": "mammadovwork [at] gmail.com",
+    "phone": "(+994)51 402 16 16",
+    "summary": "Software Engineer at Simbrella.",
+    "location": {
+      "city": "Baku"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "url": "https://github.com/Asif-Mammadov"
+      },
+      {
+        "network": "Linkedin",
+        "url": "https://www.linkedin.com/in/asif-mammadov/"
+      },
+      {
+        "network": "Twitter",
+        "url": "https://twitter.com/asif_mammad"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Simbrella",
+      "location": "Baku, Azerbaijan",
+      "description": "Mobile Fintech Services",
+      "position": "Software Engineer",
+      "url": "https://simbrella.com/",
+      "startDate": "2022-08",
+      "summary": "Fintech company that developes financial services for Financial Institutions, Mobile Wallets and MNOs to offer loans to massive segments of untapped customers. We provide digital and instant financial services and reduce cost of risk applying AI-based models to efficiently assess customers’ creditworthiness.",
+      "highlights": [
+        "Main contributor to development of internal End-to-End testing framework that reduced amount of deployment incidents and bugs by 80% saving over 40 thousands of dollars per quarter.",
+        "Reduced the testing framework execution time by 60% significantly increasing development speed for other teams.",
+        "Migrated several intenal services to microservices architecture (3000+ lines of code).",
+        "Changing/Adding functionalities in the core products."
+      ]
+    },
+    {
+      "name": "Azerbaijan Artificial Intelligence Lab",
+      "location": "Baku, Azerbaijan",
+      "position": "Software Engineer",
+      "url": "https://ailab.az/en ",
+      "startDate": "2022-02",
+      "endDate": "2022-08",
+      "summary": "Develops AI solution for government.",
+      "highlights": [
+        "Modelling, testing and deployment of Machine Learning algorithms. Involved projects : Handwritten Text, Recognition, Spelling Correction Tool, Named Entity Recognition."
+      ]
+    },
+    {
+      "name": "Kapital Bank OJSC",
+      "location": "Baku, Azerbaijan",
+      "description": "Biggest bank in Azerbaijan",
+      "position": "Application Security Intern",
+      "url": "https://www.kapitalbank.az/en",
+      "startDate": "2021-06",
+      "endDate": "2021-09",
+      "summary": "Serves more than 5 million individuals and more than 22,000 legal entities.",
+      "highlights": [
+        "Identified and fixed over 300 software bugs and flaws for solutions written in Java and Node.js.",
+        "Configured dependency vulnerability scanner across most of the company products that prevented releasing several vulnerable products.",
+        "Regular penetration testing of external web services."
+      ]
+    },
+    {
+      "name": "Eilink R&M Center",
+      "location": "Baku, Azerbaijan",
+      "description": "Khazar University",
+      "position": "Data Science Intern",
+      "url": "https://khazar-eilink.com/",
+      "startDate": "2021-07",
+      "endDate": "2021-10",
+      "summary": "Creates a mutual opportunity for Education and Industry to benefit from each other through collaborative research and scientific studies.",
+      "highlights": [
+        "Contributed on a research project sponsored by BP to predict soil properties from seismic log data using Computer Vision. I was responsible for data cleaning, processing and visualization."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Enactus Azerbaijan",
+      "position": "Developer",
+      "url": "https://enactus.az/",
+      "startDate": "2022-01",
+      "endDate": "2022-03",
+      "summary": "Dedicated to attracting a new generation of entrepreneurs and business leaders for the sustainable development of the world.",
+      "highlights": ["Developed back-end of custom content management system."]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Strasbourg",
+      "url": "https://en.unistra.fr/",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2018-09",
+      "endDate": "2022-06",
+      "score": "GPA: 17 / 20; Rank: 1st out of 35; Full Scholarship;",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Object-Oriented Programming",
+        "Computer Architecture",
+        "Database Systems",
+        "Network & Protocols",
+        "Operating Systems Architectue",
+        "Parallel Programming",
+        "Artificial Intelligence",
+        "Cyber Security"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Azercell Success Scholarship",
+      "date": "2022-01",
+      "awarder": "Azercell Telecom",
+      "summary": "Granted to 22 students in Azerbaijan based on academic performance, interviews, and logics tests."
+    },
+    {
+      "title": "Baku Food Hackathon, 2nd Place",
+      "date": "2021-11",
+      "awarder": "European Union Delegation to Azerbaijan",
+      "summary": "Presented a digital platform for farmer cooperation in villages. Received 2nd place among 114 teams."
+    },
+    {
+      "title": "2nd ABB Regional Hackathon, 2nd Place",
+      "date": "2021-07",
+      "awarder": "International Bank of Azerbaijan",
+      "summary": "Developed the service that acts as a bridge between banks and retail services to increase customer satisfaction. Special prize from the Ministry of Transport, Communications and High Technologies."
+    },
+    {
+      "title": "ActInSpace Hackathon Azerbaijan, 1st Place",
+      "date": "2020-11",
+      "awarder": "ActInSpace",
+      "summary": "Developed and introduced a data oriented solution where the logs from the car sensors could be used to improve the road experience and give more insights about our planet."
+    },
+    {
+      "title": "M. Khanlarov Scholarship",
+      "date": "2020-09",
+      "awarder": "French-Azerbaijani University",
+      "summary": "Awarded to only a few students showing the best academic performance throughout the year."
+    },
+    {
+      "title": "Summer School in Strasbourg University",
+      "date": "2019-07",
+      "awarder": "University of Strasbourg",
+      "summary": "A fully funded 2 week Summer School filled with extensive French language courses and cultural activities was awarded to students with the highest academic achievements."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Development",
+      "level": "Proficient",
+      "keywords": [
+        "C#",
+        ".NET",
+        "Go",
+        "Python",
+        "SQL",
+        "C",
+        "Bash",
+        "UML",
+        "Vim"
+      ]
+    },
+    {
+      "name": "Site Reliability/DevOps",
+      "level": "Proficient",
+      "keywords": [
+        "Prometheus",
+        "Grafana",
+        "Docker",
+        "Kubernetes",
+        "Nomad",
+        "Consul",
+        "Vault",
+        "Traefik"
+      ]
+    },
+    {
+      "name": "Miscelaneous",
+      "level": "Familiar",
+      "keywords": ["Java", "Node.js", "Powershell", "Jenkins"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Azerbaijani",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced, IELTS 8.0"
+    },
+    {
+      "language": "French",
+      "fluency": "Upper-Intermediate, DELF B2"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Music2Notes",
+      "description": "Web app that transcribes songs to sheet music.",
+      "highlights": [],
+      "keywords": ["Python", "Librosa", "Flask", "React.js"],
+      "startDate": "2022-04",
+      "endDate": "2022-02",
+      "roles": ["Team lead", "Developer"],
+      "type": "application",
+      "url": "https://github.com/Asif-Mammadov/music-to-notes"
+    },
+    {
+      "name": "Codenames Online",
+      "description": "Team Lead and Developer of the popular multiplayer board game with live rooms, chat system, and leaderboard.",
+      "highlights": [],
+      "keywords": ["Express.js", "React.js", "Socket.io", "CI/CD", "Heroku"],
+      "startDate": "2021-04",
+      "endDate": "2021-06",
+      "roles": ["Team lead", "Developer"],
+      "type": "application",
+      "url": "https://github.com/Asif-Mammadov/codenamesBackend"
+    },
+    {
+      "name": "Conway's Game of Life",
+      "description": "CLI and GUI (with SDL) for the evolutionary cellular automation devised by Mr. John Conway.",
+      "highlights": [],
+      "keywords": ["C", "SDL", "CMAKE", "CUnit", "ANSI"],
+      "startDate": "2021-05",
+      "endDate": "2021-06",
+      "roles": ["Developer"],
+      "type": "application",
+      "url": "https://github.com/Asif-Mammadov/game-of-life"
+    },
+    {
+      "name": "Distributed Expression Parser",
+      "description": "Multithreaded expression parser using Remote Method Invocation. Can be used by many computers connected to one computing server. Wrote Graphical User Interface using Swing library.",
+      "highlights": [],
+      "keywords": ["Java", "Remote Method Invocation", "Swing GUI"],
+      "startDate": "2021-03",
+      "endDate": "2021-04",
+      "roles": ["Developer"],
+      "type": "application",
+      "url": "https://github.com/Asif-Mammadov/Distributed-Expression-Parser"
+    },
+    {
+      "name": "House Hunter",
+      "description": "Scraping and pasing engine to get the data about real estate prices in Baku.",
+      "highlights": [],
+      "keywords": ["Python", "Scrapy", "MySQL"],
+      "startDate": "2020-09",
+      "endDate": "2020-10",
+      "roles": ["Developer"],
+      "type": "application",
+      "url": "https://github.com/Asif-Mammadov/house_hunter"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00"
+  }
+}

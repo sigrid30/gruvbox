@@ -1,8 +1,11 @@
 {
   "recommendations": [
-    "editorconfig.editorconfig",
+    "csstools.postcss",
     "davidanson.vscode-markdownlint",
-    "omartawfik.github-actions-vscode",
-    "timonwong.shellcheck"
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "webben.browserslist",
   ]
 }
