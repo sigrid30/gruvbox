@@ -1,6 +1,6 @@
 baseURL = "http://localhost"
 copyright = "Copyright © 2022"
-title = "hugo-theme-gruvbox"
+title = "Asif Mammadov's Personal Page"
 #paginate = 10
 enableRobotsTXT = true
 
@@ -23,7 +23,7 @@ enableRobotsTXT = true
   # gray red green yellow blue purple aqua orange, defaults to blue
   # themeColor = "blue"
   # soft medium hard, defaults to medium
-  #themeContrast = "medium"
+  themeContrast = "hard"
   author = "Asif Mammadov"
   subtitle = "Personal Site"
   description = "Asif Mammadov's Website"
@@ -40,7 +40,8 @@ enableRobotsTXT = true
       "javascript",
       "bash",
       "diff",
-      "toml"
+      "toml",
+      "powershell"
     ]
     plugins = [
       "normalize-whitespace",
