@@ -27,7 +27,7 @@ To create a certificate, execute the following command:
 New-SelfSignedCertificate -DnsName localhost,127.0.0.1 -notafter (Get-Date).AddMonths(12) -CertStoreLocation Cert:\LocalMachine\My\ -KeyExportPolicy Exportable -KeyUsage CertSign,CRLSign,DigitalSignature -KeySpec KeyExchange -KeyLength 2048 -KeyUsageProperty All -KeyAlgorithm 'RSA' -HashAlgorithm 'SHA256' -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider'
 ```
 
-<!-- markdownlint-disable MD013 -->
+<!-- markdownlint-enable MD013 -->
 
 - `-DnsName` flag specifies the DNS name of the certificate. In this example, it
   is set to localhost and 127.0.0.1.
@@ -62,8 +62,12 @@ Manager under Personal/Certificates. You can export it via UI in Certificate
 Manager or execute the PowerShell script below to place it in the specified
 `<path>`.
 
+<!-- markdownlint-disable MD013 -->
+
 ```powershell
 $selfSignedRootCA = New-SelfSignedCertificate -DnsName MPTSQL01,localhost,127.0.0.1 -notafter (Get-Date).AddMonths(12) -CertStoreLocation Cert:\LocalMachine\My\ -KeyExportPolicy Exportable -KeyUsage CertSign,CRLSign,DigitalSignature -KeySpec KeyExchange -KeyLength 2048 -KeyUsageProperty All -KeyAlgorithm 'RSA' -HashAlgorithm 'SHA256' -Provider 'Microsoft Enhanced RSA and AES Cryptographic Provider'
 $CertPassword = ConvertTo-SecureString -String "<your_password>" -Force -AsPlainText
 $selfSignedRootCA | Export-PfxCertificate -FilePath <path> -Password $CertPassword
 ```
+
+<!-- markdownlint-enable MD013 -->
