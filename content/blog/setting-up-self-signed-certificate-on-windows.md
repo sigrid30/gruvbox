@@ -1,11 +1,11 @@
 ---
 title: Setting Up Self-Signed Certificate on Windows
-date: "2021-06-20T09:15:20+04:00"
+date: "2022-06-20T09:15:20+04:00"
 cover:
   src: https://www.keyfactor.com/wp-content/uploads/1-21-three-men-key.png
 tags:
-  - Certificate
-  - Windows
+  - certificate
+  - windows
 draft: false
 ---
 
