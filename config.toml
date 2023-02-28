@@ -82,7 +82,7 @@ min_version = "0.41.0"
   [[menu.main]]
     identifier = "cv"
     name = "CV"
-    url = "/cv"
+    url = "/"
     weight = 30
   [[menu.main]]
     identifier = "about"

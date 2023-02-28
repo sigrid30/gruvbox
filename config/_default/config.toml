@@ -30,7 +30,7 @@ enableRobotsTXT = true
 
   [params.logo]
     text = "asifmv.com"
-    url = "/cv"
+    url = "/"
 
   [params.prism]
     languages = [
@@ -41,7 +41,8 @@ enableRobotsTXT = true
       "bash",
       "diff",
       "toml",
-      "powershell"
+      "powershell",
+      "yaml"
     ]
     plugins = [
       "normalize-whitespace",
