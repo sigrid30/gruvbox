@@ -19,9 +19,9 @@ enableRobotsTXT = true
 [params]
   # dark or light, defaults to light. Local storage and OS preference override this param. For more details see: 
   # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
-  #defaultTheme = "light"
+  defaultTheme = "dark"
   # gray red green yellow blue purple aqua orange, defaults to blue
-  # themeColor = "blue"
+  themeColor = "blue"
   # soft medium hard, defaults to medium
   themeContrast = "hard"
   author = "Asif Mammadov"
@@ -116,6 +116,11 @@ enableRobotsTXT = true
     formatString = "mailto:?subject={title}&body={url}"
 
 [menu]
+  [[menu.main]]
+    identifier = "blog"
+    name = "Blog"
+    url = "/blog"
+    weight = 10
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
